@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: greeting-service-nodejs-circuit-breaker
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: greeting-service-nodejs-circuit-breaker
+    app.kubernetes.io/part-of: nodejs-circuit-breaker
+  name: greeting-service-nodejs-c8frg
+spec:
+  path: /
+  port:
+    targetPort: 3001
+  to:
+    kind: Service
+    name: greeting-service-nodejs-circuit-breaker
+    weight: null
+status: {}
