@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: name-service-nodejs-circuit-breaker
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/lholmqui-tenant/nodejs-circuit-breaker/name-service-nodejs-circuit-breaker@sha256:a8ee29da441caf55ded740249c821c481d214a7b12c6026df20e31e29fc52425
+        name: my-nodejs
+        resources: {}
+status: {}

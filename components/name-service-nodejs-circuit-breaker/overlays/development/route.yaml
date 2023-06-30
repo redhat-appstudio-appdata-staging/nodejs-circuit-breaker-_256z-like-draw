@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: name-service-nodejs-circuit-breaker
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: name-service-nodejs-circuit-breaker
+    app.kubernetes.io/part-of: nodejs-circuit-breaker
+  name: name-service-nodejs-circu6spc
+spec:
+  path: /
+  port:
+    targetPort: 3001
+  to:
+    kind: Service
+    name: name-service-nodejs-circuit-breaker
+    weight: null
+status: {}
