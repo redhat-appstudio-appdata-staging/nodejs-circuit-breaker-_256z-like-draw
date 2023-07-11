@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: name-service-nodejs-circuit-breaker
     app.kubernetes.io/part-of: nodejs-circuit-breaker
-  name: name-service-nodejs-circure0b
+  name: name-service-nodejs-circucsk1
 spec:
   path: /
   port:
