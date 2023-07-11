@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: greeting-service-nodejs-circuit-breaker
     app.kubernetes.io/part-of: nodejs-circuit-breaker
-  name: greeting-service-nodejs-crru1
+  name: greeting-service-nodejs-ccgow
 spec:
   path: /
   port:
