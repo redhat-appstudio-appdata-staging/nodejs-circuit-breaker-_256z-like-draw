@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/lholmqui-tenant/nodejs-circuit-breaker/greeting-service-nodejs-circuit-breaker@sha256:a8cb8a43d447f7f4182ce7955abd496a07330560e6c0c7a8adaf54b6bb5cef86
+      - image: quay.io/redhat-user-workloads-stage/lholmqui-tenant/nodejs-circuit-breaker/greeting-service-nodejs-circuit-breaker@sha256:553671ec963eaf6ebbc7915ad122b3361b7db7a7b9d78cd0f67ed2a0ec56081a
         name: my-nodejs
         resources: {}
 status: {}
