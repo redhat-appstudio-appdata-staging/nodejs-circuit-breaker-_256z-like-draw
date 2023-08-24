@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: greeting-service-nodejs-circuit-breaker
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/lholmqui-tenant/nodejs-circuit-breaker/greeting-service-nodejs-circuit-breaker@sha256:6af4bac9da2a9c229e362e1a4585fa86f6593a801de0ec18eba432d7636dac4f
+      - image: quay.io/redhat-user-workloads-stage/lholmqui-tenant/nodejs-circuit-breaker/greeting-service-nodejs-circuit-breaker@sha256:a8cb8a43d447f7f4182ce7955abd496a07330560e6c0c7a8adaf54b6bb5cef86
         name: my-nodejs
         ports:
         - containerPort: 3001
