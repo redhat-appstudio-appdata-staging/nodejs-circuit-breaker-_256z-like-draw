@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: name-service-nodejs-circuit-breaker
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/lholmqui-tenant/nodejs-circuit-breaker/name-service-nodejs-circuit-breaker@sha256:e9c42dd57634c761ea67ed88872fa036c35def7d8309e79423c2bb50f1c58453
+      - image: quay.io/redhat-user-workloads-stage/lholmqui-tenant/nodejs-circuit-breaker/name-service-nodejs-circuit-breaker@sha256:a8ee29da441caf55ded740249c821c481d214a7b12c6026df20e31e29fc52425
         name: my-nodejs
         ports:
         - containerPort: 3001
